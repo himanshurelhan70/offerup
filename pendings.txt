@@ -1,0 +1,5 @@
+1. navbar position fixed krna h 
+
+2. nearby ki styling krni h
+
+3. navabr position fixed ke bad more wali line me screen choti krne par more wali line ki width kam ho rhi h 
