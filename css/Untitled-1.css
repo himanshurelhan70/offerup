@@ -1,0 +1,87 @@
+/* {
+position: absolute;
+left: 0;
+top: 0;
+filter: blur(15px);
+-webkit-filter: blur(15px);
+opacity: 0.5;
+background-image: url(http://demo.reveme.es/product_main.jpg);
+background-size: cover;
+width: 100%;
+height: 100%;
+background-position: center;
+} */
+
+
+
+
+/* ._qhcg4s {
+    background: url("../img/assets/price_tags.png") no-repeat;
+    background-size: 36px 160px;
+    overflow: hidden;
+    background-position: -0px -120px;
+    width: 19px;
+    height: 40px;
+}
+._1us50le {
+    background: url("../img/assets/price_tags.png") no-repeat;
+    background-size: 36px 160px;
+    overflow: hidden;
+    background-position: -0px -0px;
+    width: 36px;
+    height: 40px;
+}
+._ckr320 {
+    font-size: 26px;
+    line-height: 40px;
+    padding: 0 8px;
+    font-weight: 700;
+    white-space: nowrap;
+    background-color: #00ab80;
+    color: #ffffff;
+}
+._i6yod7 {
+    background: url("https://assets.offerup.com/web/images/price-tag.e9a52d13.png") no-repeat;
+    background-size: 36px 160px;
+    overflow: hidden;
+    background-position: -19px -120px;
+    width: 16px;
+    height: 40px;
+}
+ */
+
+.price-tag{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.first{
+    width: 19px;
+    height: 40px;
+    background: url(../img/assets/price_tags.png) no-repeat;
+    background-size: 36px 160px;
+    background-position: 0px -120px;
+    overflow: hidden;
+}
+
+.second{
+    background-color: #00ab80;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.625rem;
+    padding: 0 8px;
+    white-space: normal;
+}
+
+.third{
+    background: url(../img/assets/price_tags.png) no-repeat;
+    background-size: 36px 160px;
+    overflow: hidden;
+    background-position: -19px -120px;
+    width: 36px;
+    height: 40px;
+}

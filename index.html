@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFERUP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row fixed-top flex-box first-nav">
+            <div class="block1 flex-box">
+                <div class="navbar navbar-expand-sm">
+                    <a class="navbar-brand" href="index.html">OfferUp</a>
+                </div>
+            
+                <div class="search-area flex-box">
+                    <a href="#" class="fa fa-search"></a>
+                    <input type="text" placeholder="Search OfferUp"/>
+                </div>
+            </div>
+            <div class="block2 flex-box">
+                <div class="location-area flex-box">
+                    <span class="fas fa-map-marker-alt map-icon"></span>
+                    <input class="location-input" type="text" placeholder="Nearby"/>
+                    <span><a href="#">GO</a></span>
+                    <div class="my-location">
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="#"> My Location</a>
+                        </div>
+                        <div class="nationwide">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="#"> Nationwide</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="block2-part flex-box">
+                    <div class="sell-popup">
+                        <span data-target="#mymodal1" data-toggle="modal" id="sell-icon">
+                            <i class="fa fa-camera cam-icon"></i>
+                            <a href="#">Sell</a>
+                        </span> 
+                    </div>
+
+                    <div class="about-dropdown">
+                        <a href="#" class="about" id="about_us_link"> About
+                            <span class="fa fa-chevron-down"></span>
+                            <span class="fa fa-chevron-up d-none"></span>
+                        </a>
+                    </div>
+                    
+                    <div class="login-popup">
+                        <span class="" data-toggle="modal" data-target="#mymodal2"><a href="#">Login</a></span>
+                    </div>
+                
+                    <div class="signup-popup">
+                        <span class="" data-toggle="modal" data-target="#mymodal"><a href="#">Sign up</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row products">
+            <div class="product-item">
+                <a href="#">Cars & trucks</a>
+                <a href="#">Furniture</a>
+                <a href="#">Appliances</a>
+                <a href="#">Baby & kids</a> 
+                <a href="#">Clothing & shoes</a>
+                <a href="#" class="about" id="products-link"> More
+                    <span class="fa fa-chevron-down"></span>
+                    <span class="fa fa-chevron-up d-none"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+   
+    
+            
+    <div class="my-container"> 
+        <div class="sub-heading">
+            <h4 class="text-center"><img src="img/assets/letgo-logo@2x.ff5124c9.png">&nbsp; is now part of OfferUp!&nbsp; <button class="btn btn-primary">Get the app</button>&nbsp;<button class="learn-more btn btn-primary">Learn more</button> </h4>
+        </div>
+    
+        <section>
+            <div class="product-list flex-box">
+                <div class="first-block">
+                    <a href="product-detail.html" class="items">
+                        <img src="img/Product_Images/item1.jpg">
+                        <div class="description">
+                            <h4>Perfectlyyshape 2008
+                                Nissan Alti....
+                            </h4>
+                            <span>$1200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item2.jpg">
+                        <div class="description">
+                            <h4>FREE DELIVERY!!
+                                Kenmore <br>
+                                CONTACT TOD...
+                            </h4>
+                            <span>$599.00</span>
+                            <p>Fort Washington,MD</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item7.jpg">
+                        <div class="description">
+                            <h4>Guitar
+                            </h4>
+                            <span>$100.00</span>
+                            <p>Vienna,VA</p>
+                            <i class="fa fa-briefcase">Ships for $40.00</i>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item3.jpg">
+                        <div class="description">
+                            <h4>NO CREDIT!!
+                                Whirlpool High Efficient..
+                            </h4>
+                            <span>$200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item4.jpg">
+                        <div class="description">
+                            <h4>2011 Toyota<br> Corolla
+                            </h4>   
+                            <span>$8500.00</span>
+                            <p>Vienna,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item5.jpg">
+                        <div class="description">
+                            <h4>Yezzy 700v3(sz8.5)
+                            </h4>
+                            <span>$250.00</span>
+                            <p>Washington, DC</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="first-block">
+                    <a href="product-detail.html" class="items">
+                        <img src="img/Product_Images/item5.jpg">
+                        <div class="description">
+                            <h4>Yezzy 700v3(sz8.5)
+                            </h4>
+                            <span>$250.00</span>
+                            <p>Washington, DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item4.jpg">
+                        <div class="description">
+                            <h4>2011 Toyota<br> Corolla
+                            </h4>
+                            <span>$8500.00</span>
+                            <p>Vienna,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <figure>
+                            <img src="img/Product_Images/item6.jpg">
+                            <figcaption>promoted</figcaption>
+                        </figure>
+                        <div class="description">
+                            <h4>Large Rug carpet
+                                 11*12
+                            </h4>
+                            <span>$95.00</span>
+                            <p>Alexasndria,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item2.jpg">
+                        <div class="description">
+                            <h4>FREE DELIVERY!!
+                                Kenmore <br>
+                                CONTACT TOD...
+                            </h4>
+                            <span>$599.00</span>
+                            <p>Fort Washington,MD</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item7.jpg">
+                        <div class="description">
+                            <h4>Guitar
+                            </h4>
+                            <span>$100.00</span>
+                            <p>Vienna,VA</p>
+                            <span class="ships"><i class="fas fa-briefcase"></i>
+                                Ships for &#36; 7.89  
+                            </span>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item1.jpg">
+                        <div class="description">
+                            <h4>Perfectlyyshape 2008
+                                Nissan Alti....
+                            </h4>
+                            <span>$1200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="first-block">
+                    <a href="product-detail.html" class="items">
+                        <img src="img/Product_Images/item4.jpg">
+                        <div class="description">
+                            <h4>2011 Toyota<br> Corolla
+                            </h4>
+                            <span>$8500.00</span>
+                            <p>Vienna,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item7.jpg">
+                        <div class="description">
+                            <h4>Guitar
+                            </h4>
+                            <span>$100.00</span>
+                            <p>Vienna,VA</p>
+                            <span class="ships"><i class="fas fa-briefcase"></i>
+                                Ships for &#36; 7.89  
+                            </span>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item3.jpg">
+                        <div class="description">
+                            <h4>NO CREDIT!!
+                                Whirlpool High Efficient..
+                            </h4>
+                            <span>$200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item2.jpg">
+                        <div class="description">
+                            <h4>FREE DELIVERY!!
+                                Kenmore <br>
+                                CONTACT TOD...
+                            </h4>
+                            <span>$599.00</span>
+                            <p>Fort Washington,MD</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item1.jpg">
+                        <div class="description">
+                            <h4>Perfectlyyshape 2008
+                                Nissan Alti....
+                            </h4>
+                            <span>$1200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <figure>
+                            <img src="img/Product_Images/item6.jpg">
+                            <figcaption>promoted</figcaption>
+                        </figure>
+                        <div class="description">
+                            <h4>Large Rug carpet
+                                 11*12
+                            </h4>
+                            <span>$95.00</span>
+                            <p>Alexasndria,VA</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="first-block">
+                    <a href="product-detail.html" class="items">
+                        <img src="img/Product_Images/item3.jpg">
+                        <div class="description">
+                            <h4>NO CREDIT!!
+                                Whirlpool High Efficient..
+                            </h4>
+                            <span>$200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item2.jpg">
+                        <div class="description">
+                            <h4>FREE DELIVERY!!
+                                Kenmore <br>
+                                CONTACT TOD...
+                            </h4>
+                            <span>$599.00</span>
+                            <p>Fort Washington,MD</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <figure>
+                            <img src="img/Product_Images/item6.jpg">
+                            <figcaption>promoted</figcaption>
+                        </figure>
+                        <div class="description">
+                            <h4>Large Rug carpet
+                                 11*12
+                            </h4>
+                            <span>$95.00</span>
+                            <p>Alexasndria,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item7.jpg">
+                        <div class="description">
+                            <h4>Guitar
+                            </h4>
+                            <span>$100.00</span>
+                            <p>Vienna,VA</p>
+                            <span class="ships"><i class="fas fa-briefcase"></i>
+                                Ships for &#36; 7.89  
+                            </span>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item4.jpg">
+                        <div class="description">
+                            <h4>2011 Toyota<br> Corolla
+                            </h4>
+                            <span>$8500.00</span>
+                            <p>Vienna,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item5.jpg">
+                        <div class="description">
+                            <h4>Yezzy 700v3(sz8.5)
+                            </h4>
+                            <span>$250.00</span>
+                            <p>Washington, DC</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="first-block">
+                    <a href="product-detail.html" class="items">
+                        <img src="img/Product_Images/item7.jpg">
+                        <div class="description">
+                            <h4>Guitar
+                            </h4>
+                            <span>$100.00</span>
+                            <p>Vienna,VA</p>
+                            <span class="ships"><i class="fas fa-briefcase"></i>
+                                Ships for &#36; 7.89  
+                            </span>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item2.jpg">
+                        <div class="description">
+                            <h4>FREE DELIVERY!!
+                                Kenmore <br>
+                                CONTACT TOD...
+                            </h4>
+                            <span>$599.00</span>
+                            <p>Fort Washington,MD</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item1.jpg">
+                        <div class="description">
+                            <h4>Perfectlyyshape 2008
+                                Nissan Alti....
+                            </h4>
+                            <span>$1200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <figure>
+                            <img src="img/Product_Images/item6.jpg">
+                            <figcaption>promoted</figcaption>
+                        </figure>
+                        <div class="description">
+                            <h4>Large Rug carpet
+                                 11*12
+                            </h4>
+                            <span>$95.00</span>
+                            <p>Alexasndria,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item4.jpg">
+                        <div class="description">
+                            <h4>2011 Toyota<br> Corolla
+                            </h4>
+                            <span>$8500.00</span>
+                            <p>Vienna,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item3.jpg">
+                        <div class="description">
+                            <h4>NO CREDIT!!
+                                Whirlpool High Efficient..
+                            </h4>
+                            <span>$200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="first-block">
+                    <a class="items" href="product-detail.html">
+                        <img src="img/Product_Images/item1.jpg">
+                        <div class="description">
+                            <h4>Perfectlyyshape 2008
+                                Nissan Alti....
+                            </h4>
+                            <span>$1200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <figure>
+                            <img src="img/Product_Images/item6.jpg">
+                            <figcaption>promoted</figcaption>
+                        </figure>
+                        <div class="description">
+                            <h4>Large Rug carpet
+                                 11*12
+                            </h4>
+                            <span>$95.00</span>
+                            <p>Alexasndria,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item5.jpg">
+                        <div class="description">
+                            <h4>Yezzy 700v3(sz8.5)
+                            </h4>
+                            <span>$250.00</span>
+                            <p>Washington, DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item3.jpg">
+                        <div class="description">
+                            <h4>NO CREDIT!!
+                                Whirlpool High Efficient..
+                            </h4>
+                            <span>$200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item4.jpg">
+                        <div class="description">
+                            <h4>2011 Toyota<br> Corolla
+                            </h4>
+                            <span>$8500.00</span>
+                            <p>Vienna,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item2.jpg">
+                        <div class="description">
+                            <h4>FREE DELIVERY!!
+                                Kenmore <br>
+                                CONTACT TOD...
+                            </h4>
+                            <span>$599.00</span>
+                            <p>Fort Washington,MD</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="first-block">
+                    <a class="items" href="product-detail.html">
+                        <img src="img/Product_Images/item2.jpg">
+                        <div class="description">
+                            <h4>FREE DELIVERY!!
+                                Kenmore <br>
+                                CONTACT TOD...
+                            </h4>
+                            <span>$599.00</span>
+                            <p>Fort Washington,MD</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item4.jpg">
+                        <div class="description">
+                            <h4>2011 Toyota<br> Corolla
+                            </h4>
+                            <span>$8500.00</span>
+                            <p>Vienna,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item3.jpg">
+                        <div class="description">
+                            <h4>NO CREDIT!!
+                                Whirlpool High Efficient..
+                            </h4>
+                            <span>$200.00</span>
+                            <p>Washington,DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item5.jpg">
+                        <div class="description">
+                            <h4>Yezzy 700v3(sz8.5)
+                            </h4>
+                            <span>$250.00</span>
+                            <p>Washington, DC</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <figure>
+                            <img src="img/Product_Images/item6.jpg">
+                            <figcaption>promoted</figcaption>
+                        </figure>
+                        <div class="description">
+                            <h4>Large Rug carpet
+                                 11*12
+                            </h4>
+                            <span>$95.00</span>
+                            <p>Alexasndria,VA</p>
+                        </div>
+                    </a>
+                    <a class="items">
+                        <img src="img/Product_Images/item7.jpg">
+                        <div class="description">
+                            <h4>Guitar
+                            </h4>
+                            <span>$100.00</span>
+                            <p>Vienna,VA</p>
+                            <span class="ships"><i class="fas fa-briefcase"></i>
+                                  Ships for &#36; 7.89  
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-center">
+        <a href="#" class="col-sm-2">Explore</a>
+        <a href="#" class="col-sm-2">Term</a>
+        <a href="#" class="col-sm-2">Privacy</a>
+        <a href="#" class="col-sm-2">Help</a>
+        <a href="#" class="col-sm-2">Safe Trade Spots</a>
+        <div class="social-icons">
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#"class="fab fa-linkedin-in"></a>
+            <a href="#" class="fab fa-pinterest-p"></a>
+        </div>
+        <div class="footer-entity">
+            <p>&copy; 2021 OfferUp, Inc.</p>
+        </div>
+    </footer>
+
+
+    <div class="modal fade" id="mymodal1">
+        <div class="modal-dialog modal-size">
+            <div class="modal-content bg-color">
+                <div class="modal-body">
+                    <button class="close" id="close-btn" data-dismiss="modal">&times;</button>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <p class="post">Post your items in as little as 30 seconds</p>
+                            <p class="download">Download our top-rated iOS or Android app to post your item.</p>
+                            
+                            <!-- <div class="radio-btn">
+                                <label class="radio-inline phone"><input type="radio" name="optradio" class="btn-padding">Phone Number</label>
+                                <label class="radio-inline"><input type="radio" name="optradio" class="btn-padding">Email Address</label>
+                            </div> -->
+
+                            <div class="radio-item">
+                                <input type="radio" id="ritema" name="ritem" value="ropt1">
+                                <label for="ritema">Phone Number</label>
+                            </div>
+                            
+                            <div class="radio-item">
+                                <input type="radio" id="ritemb" name="ritem" value="ropt2">
+                                <label for="ritemb">Email Address</label>
+                            </div>
+                            
+                            <form>
+                                <div class="mb-3 input-btn flex-box">
+                                    <span class="fas fa-mobile-alt mobile"></span>
+                                    <input type="text" placeholder="Phone Number"> 
+                                    <button class="input-group-text send-btn">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-5 img-area">
+                            <img class="mobile-img" src="img/assets/apps-on-android-ios.ef2f766a.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="mymodal2">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close text-right" data-dismiss="modal">&times;</button>
+                    <h3 class="text-center text-dark signup">Log in</h3>
+                    <h1 class="text-center offer">OfferUp</h1>
+                    <h5 class="text-center">NOW WITH <img src="img/assets/letgo-logo@2x.ff5124c9.png"></h5>
+                    <a href="#" class="facebook-link">
+                        <span class="fa fa-facebook fb-icon"></span>
+                        <p class="continue">Continue with Facebook</p> 
+                    </a>
+                    <a href="#" class="google-link">
+                        <div class="image">
+                            <img src="img/google.jpg">
+                        </div>
+                        <p class="continue">Continue with Google</p>
+                    </a>
+                    <a href="#" class="apple-link">
+                        <span class="fa fa-apple apple-icon"></span>
+                        <p>Continue with Apple</p>
+                    </a>
+                    <h6 class="text-center">OR</h6>
+                    <form>
+                        <div class="form-group">
+                            <label>EMAIL</label>
+                            <input type="text" name="" class="form-control" placeholder="Ex.johndoe@mail.com">
+                        </div>
+                        <div class="form-group">
+                            <label>PASSWORD</label>
+                            <input type="password" name="" class="form-control">
+                        </div>
+                    </form>
+                    <p class="security">This site is protected by reCAPTCHA and the Google <span>Privacy Policy</span>and <span>Terms of Service</span> apply. </p>
+                    <button class="btn btn-lg  btn-block sign-btn">Log in</button>
+                    
+                    <div class="modal-footer">
+                        <h4>Don't have an account?&nbsp;<span><a href="#">Sign up</a></span></h4>
+                        <p class="security">By signing up or logging in, you agree to the OfferUp<span>Terms of Services</span> and <span>Privacy Policy.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="mymodal">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close text-right" data-dismiss="modal">&times;</button>
+                    <h3 class="text-center text-dark signup">Sign up</h3>
+                    <h1 class="text-center offer">OfferUp</h1>
+                    <h5 class="text-center">NOW WITH <img src="img/assets/letgo-logo@2x.ff5124c9.png"></h5>
+                   
+                    <a href="#" class="facebook-link">
+                        <span class="fa fa-facebook fb-icon"></span>
+                        <p class="continue">Continue with Facebook</p> 
+                    </a>
+                    
+                    
+                    <a href="#" class="google-link">
+                        <div class="image">
+                            <img src="img/google.jpg">
+                        </div>
+                        <p class="continue">Continue with Google</p>
+                    </a>
+                    
+
+                    <a href="#" class="apple-link">
+                        <span class="fa fa-apple apple-icon"></span>
+                        <p>Continue with Apple</p>
+                    </a>
+                    
+
+                    <h6 class="text-center">OR</h6>
+
+                    <form>
+                        <div class="form-group">
+                            <label>EMAIL</label>
+                            <input type="text" name="" class="form-control" placeholder="Ex.johndoe@mail.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label>NAME</label>
+                            <input type="text" name="" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>PASSWORD</label>
+                            <input type="password" name="" class="form-control">
+                        </div>
+                    </form>
+                    <p class="security">This site is protected by reCAPTCHA and the Google <span>Privacy Policy</span>and <span>Terms of Service</span> apply. </p>
+                    <button class="btn btn-lg  btn-block sign-btn">Signup</button>
+                    
+                    <div class="modal-footer">
+                        <h4>Already have an account?&nbsp;<span><a href="#">Log in</a></span></h4>
+                        <p class="security">By signing up or logging in, you agree to the OfferUp<span>Terms of Services</span> and <span>Privacy Policy.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
